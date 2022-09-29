@@ -1,0 +1,18 @@
+server:
+  port: 4200
+
+jwt:
+  secret: 'b@F*Zd4t%kwQUlCIz7Y8JOvujDd%vXrdd61!20&#F53rCO$91Wb@F*Zd4t%kwQUlCIz7Y8JOvujDd%vXrdd61!20&#F53rCO$91W'
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/usermanagement?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    password: SSYSBpVHNpAyMlqma0oh
+    username: benny
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
