@@ -1,5 +1,5 @@
 server:
-  port: 4200
+  port: 8081
 
 jwt:
   secret: 'b@F*Zd4t%kwQUlCIz7Y8JOvujDd%vXrdd61!20&#F53rCO$91Wb@F*Zd4t%kwQUlCIz7Y8JOvujDd%vXrdd61!20&#F53rCO$91W'
