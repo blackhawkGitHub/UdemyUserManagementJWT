@@ -18,7 +18,7 @@ import java.util.Date;
 @Slf4j
 @Service
 @Transactional
-@Qualifier("UserDetailService")
+@Qualifier("userDetailsService")
 public class UserServiceImpl implements UserService, UserDetailsService {
     private UserRepository userRepository;
 
